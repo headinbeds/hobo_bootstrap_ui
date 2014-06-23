@@ -45,6 +45,6 @@ Other attributes:
   add_data_rapid!(attributes, "typeahead", :options => options, :events => events, :completer_path => completer_path)
  %>
   <wrap tag="span" class="field-with-errors" when="&!this_parent.errors[this_field].empty?">
-    <input type="text" data-provide="typeahead" merge-attrs/>
+    <input type="text" class="form-control" data-provide="typeahead" merge-attrs/>
   </wrap>
 </def>
