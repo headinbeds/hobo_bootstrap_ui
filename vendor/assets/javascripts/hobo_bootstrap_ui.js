@@ -1,2 +1,2 @@
 //= require_tree .
-//= require bootstrap-datepicker3
+//= require bootstrap-datepicker
